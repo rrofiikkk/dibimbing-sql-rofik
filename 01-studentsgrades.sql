@@ -1,3 +1,16 @@
+-- Soal 1: Dari HackerRank
+-- Link : https://www.hackerrank.com/challenges/the-report/problem?isFullScreen=true
+-- Level : Medium
+-- Tabel : Students (ID, Name, Marks), Grades (Grade, Min_Mark, Max_Mark)
+
+-- Tugas:
+-- Buat laporan berisi Name, Grade, Marks.
+--- Siswa dengan grade < 8, namanya ditampilkan sebagai 'NULL'.
+--- Urutkan dari grade tertinggi ke terendah
+--- Grade 8-10 dengan grade sama: urutkan nama A-Z
+--- Grade 1-7 dengan grade sama: urutkan marks dari kecil ke besar
+
+
 with student_grades as (
     select
         s.name,
